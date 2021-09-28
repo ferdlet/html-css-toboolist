@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ***** Header ***** */
@@ -20,6 +20,7 @@ header {
 
 h1 {
     display: inline;
+    font-size: 36px;
 }
 
 /* ***** Main ***** */
@@ -52,8 +53,9 @@ main{
 .task, .section {
     display: inline-block;
     border: 1px solid;
-    padding: 4px;
+    padding: 6px;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 .task{
@@ -72,6 +74,11 @@ ul{
     list-style: none; 
 }
 
+li{
+    margin-bottom: 20px;
+}
+
+/* ***** Inizio Categorie ****** */
 .categoria{
     display: inline-block;
     padding: 6px;
@@ -84,6 +91,43 @@ ul{
     color: white;
     font-weight: bold;
 }
+
+.viola{
+    background-color: rgb(138, 8, 199);
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.green{
+    background-color: rgb(8, 199, 119);
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.arancione{
+    background-color: orange;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.fucsia{
+    background-color: rgb(224, 100, 224);
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.melma{
+    background-color: rgb(99, 199, 80);
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* ******* Fine categrie ****** */
 
 .check, .cross{
   display: inline-block;  
@@ -98,4 +142,11 @@ ul{
 .check{
     color: green;
     border-color: green;
+    
 }
+
+.cross{
+    color: red;
+    border-color: red;
+}
+
