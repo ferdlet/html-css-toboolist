@@ -40,9 +40,9 @@ main{
 
 .container-list{
     padding-top: 30px;
+    padding-bottom: 15px;
 }
     
-
 .container-button{
     border-bottom: 2px solid rgb(246, 248, 249);
     padding-top: 15px;
@@ -148,5 +148,9 @@ li{
 .cross{
     color: red;
     border-color: red;
+}
+
+.container-sottolista{
+    margin-top: 10px;
 }
 
