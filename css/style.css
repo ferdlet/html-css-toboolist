@@ -21,3 +21,81 @@ header {
 h1 {
     display: inline;
 }
+
+/* ***** Main ***** */
+main{
+    background-color: rgb(246, 248, 249);
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.container-list, .container-button{
+    width: 60%;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    padding-left: 50px;
+}
+
+.container-list{
+    padding-top: 30px;
+}
+    
+
+.container-button{
+    border-bottom: 2px solid rgb(246, 248, 249);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.task, .section {
+    display: inline-block;
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: rgb(82, 189, 255);
+    color: white;
+}
+
+.section{
+    border-color: lightgrey;
+    color: lightgrey;
+}
+
+/* ***** Inzio Lista ***** */
+
+ul{
+    list-style: none; 
+}
+
+.categoria{
+    display: inline-block;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.blu{
+    background-color: rgb(82, 189, 255);
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.check, .cross{
+  display: inline-block;  
+  border-radius: 50%;
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.check{
+    color: green;
+    border-color: green;
+}
